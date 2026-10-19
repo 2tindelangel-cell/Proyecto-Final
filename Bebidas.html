@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas-Abarrotes Del Angel</title>
+    <script src="https://kit.fontawesome.com/de26e6a6ae.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+                margin: 0;
+                padding: 0;
+            }
+        .Banner{
+            background-color: blue;
+            width: 100%;
+            height: 80px;
+            padding: 20px 0;
+            margin: 0%;
+            text-align: center;
+            }
+            .Banner h1{
+                margin: 0;
+                padding: 0;
+            }
+            .Banner h1 a{
+                color: white;
+                text-decoration: none;
+            }
+            .slogan{
+            text-align: center;
+            }
+            /* 2. Título de la sección */
+        .titulo-seccion {
+            text-align: center;
+            margin: 30px 0 10px 0;
+            color: #333;
+        }
+
+        /* 3. Grid contenedor para mostrar muchas bebidas */
+        .grid-productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* 4. Tarjeta individual de producto */
+        .tarjeta-producto {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        /* Efecto hover al pasar el cursor */
+        .tarjeta-producto:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .icono-bebida {
+            font-size: 40px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .tarjeta-producto h3 {
+            margin: 10px 0 5px 0;
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+        .precio {
+            color: #28a745;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 5px 0 15px 0;
+        }
+
+        .boton-agregar {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .boton-agregar:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Banner">
+    <h1>
+        <a href="index.html"><i>Bienvenido a <u>Abarrotes Del Angel</u></i></a>
+    </h1>
+    <p class="slogan"><i>Tus marcas favoritas cerca de ti</i></p>
+    </div>
+    <h2 class="titulo-seccion"><i class="fa-solid fa-bottle-water"></i> Catálogo de Bebidas</h2>
+
+    <!-- Contenedor donde van todas las bebidas -->
+    <div class="grid-productos">
+        
+        <!-- Producto 1 -->
+        <div class="tarjeta-producto">
+            <i class="fa-solid fa-whiskey-glass icono-bebida"></i>
+            <h3>Coca-Cola 600ml</h3>
+            <p class="precio">$18.00</p>
+            <button class="boton-agregar">Agregar</button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="tarjeta-producto">
+            <i class="fa-solid fa-bottle-droplet icono-bebida"></i>
+            <h3>Agua Ciel 1L</h3>
+            <p class="precio">$12.00</p>
+            <button class="boton-agregar">Agregar</button>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="tarjeta-producto">
+            <i class="fa-solid fa-wine-bottle icono-bebida"></i>
+            <h3>Jugo Del Valle 500ml</h3>
+            <p class="precio">$16.00</p>
+            <button class="boton-agregar">Agregar</button>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="tarjeta-producto">
+            <i class="fa-solid fa-glass-water icono-bebida"></i>
+            <h3>Electrolit 625ml</h3>
+            <p class="precio">$25.00</p>
+            <button class="boton-agregar">Agregar</button>
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="tarjeta-producto">
+            <i class="fa-solid fa-bottle-water icono-bebida"></i>
+            <h3>Sprite 600ml</h3>
+            <p class="precio">$17.00</p>
+            <button class="boton-agregar">Agregar</button>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="tarjeta-producto">
+            <i class="fa-solid fa-mug-hot icono-bebida"></i>
+            <h3>Café Frío 300ml</h3>
+            <p class="precio">$22.00</p>
+            <button class="boton-agregar">Agregar</button>
+        </div>
+
+    </div>
+</body>
+</html>

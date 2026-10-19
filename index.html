@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abarrotes "Del Angel"</title>
+     <script src="https://kit.fontawesome.com/de26e6a6ae.js" crossorigin="anonymous"></script>
+    <style>
+        h1{
+            text-align: center;
+            margin-top: 0%;
+            padding: 0;
+        }
+        .Banner{
+            background-color: blue;
+            width: 100%;
+            height: 80px;
+            padding-bottom: 15px;
+            margin: 0%;
+            color: white;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .slogan{
+            text-align: center;
+        }
+        .contenedor-categorias h2{
+           text-align: left;
+           margin-left: 35px;
+           margin-top: 35px;
+           color: #333;
+        }
+        .grid-categorias{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 450px;
+            margin-left: 20px, 0, 20px, 50px;
+            padding:0 ;
+        }
+        .tarjeta-categoria{
+            background-color: #ffffff;
+            border:2 px solid#e0e0e0;
+            border-radius: 12px;
+            padding: 20px 15px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.238);
+            transition: all 0.3s ease;
+            display: block;
+            cursor: pointer;
+        }
+        .tarjeta-categoria:hover{
+            transform: translateY(-8px);
+            border-color: #0056b3;
+            box-shadow: 0 8px 15px rgba(0, 86, 179, 0.2);
+            background-color: #f8fafd;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Banner">
+    <h1><i>Bienvenido a <u>Abarrotes Del Angel</u></i></h1>
+    <p class="slogan"><i>Tus marcas favoritas cerca de ti</i></p>
+    </div>
+    
+    <section class="contenedor-categorias">
+        <h2>Categorias</h2>
+        <div class="grid-categorias">
+            <a href="Bebidas.html" class="tarjeta-categoria">
+            <i class="fa-solid fa-bottle-water"></i>
+            <h3>Bebidas</h3>
+            </a>
+             <a href="" class="tarjeta-categoria">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <h3>Botanas</h3>
+            </a>
+            <a href="" class="tarjeta-categoria">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <h3>Abarrotes</h3>
+            </a>
+            <a href="" class="tarjeta-categoria">
+            <i class="fa-solid fa-spray-can-sparkles"></i>
+            <h3>Limpieza</h3>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>
+            <i class="fa-solid fa-map-pin"></i>
+            Ubicación: Santa Fe, 92127 Tantoyuca Veracurz
+            <br>
+            <i class="fa-regular fa-clock"></i>
+            Horario: (Lun-Dom, 7:00 a.m - 7:00 p.m)
+        </p>
+    </footer>
+</body>
+</html>
