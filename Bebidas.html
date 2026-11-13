@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bebidas-Abarrotes Del Angel</title>
+    <title>Bebidas-MiniExpress GS</title>
     <script src="https://kit.fontawesome.com/de26e6a6ae.js" crossorigin="anonymous"></script>
     <style>
         body{
-                margin: 0;
-                padding: 0;
+             margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #F4F3EF;
             }
         .Banner{
-            background-color: blue;
+            background-color: #0f6b50;
             width: 100%;
             height: 80px;
             padding: 20px 0;
@@ -56,6 +60,9 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
+        .tarjeta-producto img{
+            width: 90px;
+        }
 
         /* Efecto hover al pasar el cursor */
         .tarjeta-producto:hover {
@@ -95,13 +102,25 @@
         .boton-agregar:hover {
             background-color: #0056b3;
         }
+        footer{
+            margin-top: auto;
+            text-align: center;
+            padding: 20px;
+            background-color: #E9E5DC;
+        }
+         .copy{
+            font-size: 12px;
+        }
+        .información{
+            font-size:15px;
+        }
 
     </style>
 </head>
 <body>
     <div class="Banner">
     <h1>
-        <a href="index.html"><i>Bienvenido a <u>Abarrotes Del Angel</u></i></a>
+        <a href="index.html"><i>Bienvenido a <u>MiniExpress GS</u></i></a>
     </h1>
     <p class="slogan"><i>Tus marcas favoritas cerca de ti</i></p>
     </div>
@@ -112,7 +131,7 @@
         
         <!-- Producto 1 -->
         <div class="tarjeta-producto">
-            <i class="fa-solid fa-whiskey-glass icono-bebida"></i>
+            <img src="https://cdnx.jumpseller.com/bepensa-bebidas/image/53604847/COCA-COLA-600ml-NRP.png?1726860400">
             <h3>Coca-Cola 600ml</h3>
             <p class="precio">$18.00</p>
             <button class="boton-agregar">Agregar</button>
@@ -120,7 +139,7 @@
 
         <!-- Producto 2 -->
         <div class="tarjeta-producto">
-            <i class="fa-solid fa-bottle-droplet icono-bebida"></i>
+            <img src="https://resources.coca-colaentuhogar.com/media/catalog/product/c/i/cie-natu-nor-pet-1l-6pz.png">
             <h3>Agua Ciel 1L</h3>
             <p class="precio">$12.00</p>
             <button class="boton-agregar">Agregar</button>
@@ -128,7 +147,7 @@
 
         <!-- Producto 3 -->
         <div class="tarjeta-producto">
-            <i class="fa-solid fa-wine-bottle icono-bebida"></i>
+            <img src="https://www.movil.farmaciasguadalajara.com/wcsstore/FGCAS/wcs/products/1419072_A_1280_AL.jpg">
             <h3>Jugo Del Valle 500ml</h3>
             <p class="precio">$16.00</p>
             <button class="boton-agregar">Agregar</button>
@@ -136,7 +155,7 @@
 
         <!-- Producto 4 -->
         <div class="tarjeta-producto">
-            <i class="fa-solid fa-glass-water icono-bebida"></i>
+            <img src="https://www.basicos.mx/images/thumbs/0001666_suero-electrolit-uva-625-mll_510.jpg">
             <h3>Electrolit 625ml</h3>
             <p class="precio">$25.00</p>
             <button class="boton-agregar">Agregar</button>
@@ -144,7 +163,7 @@
 
         <!-- Producto 5 -->
         <div class="tarjeta-producto">
-            <i class="fa-solid fa-bottle-water icono-bebida"></i>
+            <img src="https://convy.mx/cdn/shop/files/sprite_1024x.png?v=1700681606">
             <h3>Sprite 600ml</h3>
             <p class="precio">$17.00</p>
             <button class="boton-agregar">Agregar</button>
@@ -152,12 +171,26 @@
 
         <!-- Producto 6 -->
         <div class="tarjeta-producto">
-            <i class="fa-solid fa-mug-hot icono-bebida"></i>
-            <h3>Café Frío 300ml</h3>
+            <img src="https://www.heb.com.mx/_next/image?url=https%3A%2F%2Fheb-prod.styrk.io%2Floolu%2Fcdn%2Fecommerce%2Fimg%2F1%2F324164%2F324164_04.webp%3Fv%3D18ada224&w=3840&q=75">
+            <h3>Café Frío 330ml</h3>
             <p class="precio">$22.00</p>
             <button class="boton-agregar">Agregar</button>
         </div>
 
     </div>
+        <footer>
+        <p class="información">
+            <i class="fa-solid fa-map-pin"></i>
+            Ubicación: Calle del Cementerio S/N, Col Santa Fe, Tantoyuca Veracurz
+            <br>
+            <i class="fa-regular fa-clock"></i>
+            Horario: (Lun-Dom, 7:00 a.m - 9:30 p.m)
+            <br>
+        </p>
+        <hr>
+        <p class="copy">
+            &copy; 2026 MiniExpress GS 
+        </p>
+    </footer>
 </body>
 </html>

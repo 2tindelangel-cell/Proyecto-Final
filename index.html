@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abarrotes "Del Angel"</title>
+    <title>MiniExpress GS</title>
      <script src="https://kit.fontawesome.com/de26e6a6ae.js" crossorigin="anonymous"></script>
     <style>
+
         h1{
             text-align: center;
             margin-top: 0%;
             padding: 0;
         }
         .Banner{
-            background-color: blue;
+            background-color: #0f6b50;
             width: 100%;
             height: 80px;
             padding-bottom: 15px;
@@ -22,6 +23,10 @@
         body{
             margin: 0;
             padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #F4F3EF;
         }
         .slogan{
             text-align: center;
@@ -52,19 +57,34 @@
             transition: all 0.3s ease;
             display: block;
             cursor: pointer;
+            margin-bottom: 25px;
         }
         .tarjeta-categoria:hover{
             transform: translateY(-8px);
             border-color: #0056b3;
             box-shadow: 0 8px 15px rgba(0, 86, 179, 0.2);
             background-color: #f8fafd;
+            
+        }
+        footer{
+            margin-top: auto;
+            text-align: center;
+            padding: 20px;
+            background-color: #E9E5DC;
+        }
+        .copy{
+            font-size: 12px;
+        }
+        .información{
+            font-size:15px;
         }
 
     </style>
 </head>
 <body>
+
     <div class="Banner">
-    <h1><i>Bienvenido a <u>Abarrotes Del Angel</u></i></h1>
+    <h1><i>Bienvenido a <u>MiniExpress GS</u></i></h1>
     <p class="slogan"><i>Tus marcas favoritas cerca de ti</i></p>
     </div>
     
@@ -77,7 +97,7 @@
             </a>
              <a href="" class="tarjeta-categoria">
             <i class="fa-solid fa-cookie-bite"></i>
-            <h3>Botanas</h3>
+            <h3>Snacks/Pan</h3>
             </a>
             <a href="" class="tarjeta-categoria">
             <i class="fa-solid fa-basket-shopping"></i>
@@ -87,15 +107,28 @@
             <i class="fa-solid fa-spray-can-sparkles"></i>
             <h3>Limpieza</h3>
             </a>
+            <a href="" class="tarjeta-categoria">
+            <i class="fa-solid fa-soap"></i>
+            <h3>Cuidado Personal</h3>
+            </a>
+            <a href="" class="tarjeta-categoria">
+            <i class="fa-solid fa-cow"></i>
+            <h3>Lácteos</h3>
+            </a>
         </div>
     </section>
     <footer>
-        <p>
+        <p class="información">
             <i class="fa-solid fa-map-pin"></i>
-            Ubicación: Santa Fe, 92127 Tantoyuca Veracurz
+            Ubicación: Calle del Cementerio S/N, Col Santa Fe, Tantoyuca Veracurz
             <br>
             <i class="fa-regular fa-clock"></i>
-            Horario: (Lun-Dom, 7:00 a.m - 7:00 p.m)
+            Horario: (Lun-Dom, 7:00 a.m - 9:30 p.m)
+            <br>
+        </p>
+        <hr>
+        <p class="copy">
+            &copy; 2026 MiniExpress GS 
         </p>
     </footer>
 </body>
