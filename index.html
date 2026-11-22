@@ -13,12 +13,14 @@
             padding: 0;
         }
         .Banner{
-            background-color: #0f6b50;
+            
+            background:linear-gradient(135deg,#19865e, #28cf92);
             width: 100%;
             height: 80px;
             padding-bottom: 15px;
             margin: 0%;
             color: white;
+            border-bottom: 4px solid #50C878;
         }
         body{
             margin: 0;
@@ -42,12 +44,12 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             max-width: 450px;
-            margin-left: 20px, 0, 20px, 50px;
+            margin: 20px, 0, 20px, 50px;
             padding:0 ;
         }
         .tarjeta-categoria{
             background-color: #ffffff;
-            border:2 px solid#e0e0e0;
+            border:2px solid#e0e0e0;
             border-radius: 12px;
             padding: 20px 15px;
             text-align: center;
@@ -78,7 +80,56 @@
         .información{
             font-size:15px;
         }
+.contenido-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
 
+.contenedor-categorias{
+    flex: 1;
+}
+
+.panel-promocional{
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: 35px 30px 0 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.banner-promocional{
+    background-color: #263B50;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.banner-promocional img{
+    width: 270px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+
+@media (max-width: 700px){
+
+    .contenido-principal{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panel-promocional{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+}
     </style>
 </head>
 <body>
@@ -88,39 +139,70 @@
     <p class="slogan"><i>Tus marcas favoritas cerca de ti</i></p>
     </div>
     
+<div class="contenido-principal">
+
     <section class="contenedor-categorias">
         <h2>Categorias</h2>
+
         <div class="grid-categorias">
+
             <a href="Bebidas.html" class="tarjeta-categoria">
-            <i class="fa-solid fa-bottle-water"></i>
-            <h3>Bebidas</h3>
+                <i class="fa-solid fa-bottle-water"></i>
+                <h3>Bebidas</h3>
             </a>
-             <a href="" class="tarjeta-categoria">
-            <i class="fa-solid fa-cookie-bite"></i>
-            <h3>Snacks/Pan</h3>
-            </a>
+
             <a href="" class="tarjeta-categoria">
-            <i class="fa-solid fa-basket-shopping"></i>
-            <h3>Abarrotes</h3>
+                <i class="fa-solid fa-cookie-bite"></i>
+                <h3>Snacks/Pan</h3>
             </a>
+
             <a href="" class="tarjeta-categoria">
-            <i class="fa-solid fa-spray-can-sparkles"></i>
-            <h3>Limpieza</h3>
+                <i class="fa-solid fa-basket-shopping"></i>
+                <h3>Abarrotes</h3>
             </a>
+
             <a href="" class="tarjeta-categoria">
-            <i class="fa-solid fa-soap"></i>
-            <h3>Cuidado Personal</h3>
+                <i class="fa-solid fa-spray-can-sparkles"></i>
+                <h3>Limpieza</h3>
             </a>
+
             <a href="" class="tarjeta-categoria">
-            <i class="fa-solid fa-cow"></i>
-            <h3>Lácteos</h3>
+                <i class="fa-solid fa-soap"></i>
+                <h3>Cuidado Personal</h3>
             </a>
+
+            <a href="" class="tarjeta-categoria">
+                <i class="fa-solid fa-cow"></i>
+                <h3>Lácteos</h3>
+            </a>
+
         </div>
+    </section>
+
+    <aside class="panel-promocional">
+
+
+        <p>
+            Encuentra tus productos favoritos
+            de manera rápida y sencilla.
+        </p>
+        
+        <div class="banner-promocional">
+            <h3>¿Se te antojan unas frias🍻?</h3>
+            <a href="Cervezas.html">
+            <img src="Imagenes/Cervezas frías en bar acogedor.png">
+            </a>
+            <p>¡Haz click y descubre nuestra variedad!👆</p>
+        </div>
+        
+    </aside>
+
+</div>
     </section>
     <footer>
         <p class="información">
             <i class="fa-solid fa-map-pin"></i>
-            Ubicación: Calle del Cementerio S/N, Col Santa Fe, Tantoyuca Veracurz
+            Ubicación: Calle del Cementerio S/N, Col Santa Fe, Tantoyuca Veracruz
             <br>
             <i class="fa-regular fa-clock"></i>
             Horario: (Lun-Dom, 7:00 a.m - 9:30 p.m)
