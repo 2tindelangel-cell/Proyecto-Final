@@ -15,7 +15,7 @@
             background-color: #F4F3EF;
             }
         .Banner{
-            background-color: #0f6b50;
+           background:linear-gradient(135deg,#2F7D4A, #1F5E37);
             width: 100%;
             height: 80px;
             padding: 20px 0;
@@ -121,32 +121,16 @@
 <body>
     <div class="Banner">
     <h1>
-        <a href="index.html"><i>Bienvenido a <u>MiniExpress GS</u></i></a>
+        <a href="index.html"><i>Bienvenido a MiniExpress GS</i></a>
     </h1>
     <p class="slogan"><i>Tus marcas favoritas cerca de ti</i></p>
     </div>
-    <h2 class="titulo-seccion"><i class="fa-solid fa-bottle-water"></i> Catálogo de Bebidas</h2>
+    <h2 class="titulo-seccion">🍺 ¡Escoge tus frías!</h2>
 
     
-    <div class="grid-productos">
-        
-        
-        <div class="tarjeta-producto">
-            <img src="https://tiendaselasturiano.com/cdn/shop/files/LIC000031.jpg?v=1787260705">
-            <h3>Destilado de caña Jalpeño 500ml</h3>
-            <p class="precio">$21.00</p>
-            <button class="boton-agregar">Agregar</button>
-        </div>
+    <div class="grid-productos" id="contenedor-productos"></div>
 
-        <div class="tarjeta-producto">
-            <img src="">
-            <h3></h3>
-            <p class="precio">$21.00</p>
-            <button class="boton-agregar">Agregar</button>
-        </div>
-
-    </div>
-        <footer>
+     <footer>
         <p class="información">
             <i class="fa-solid fa-map-pin"></i>
             Ubicación: Calle del Cementerio S/N, Col Santa Fe, Tantoyuca Veracruz
@@ -160,5 +144,7 @@
             &copy; 2026 MiniExpress GS 
         </p>
     </footer>
+    <script src="cervezas-data.js"></script>
+    <script src="render.js"></script>
 </body>
 </html>
