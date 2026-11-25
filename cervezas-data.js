@@ -239,4 +239,124 @@ const productos = [
     "alcohol": true,
     "id": "six cerveza amstel ultra 355 ml"
   },
+  {
+    "nombre": "Cerveza XX Lager Ambar Caguamon 1.18 L",
+    "precio": 50,
+    "imagen": "https://dcdn-us.mitiendanube.com/stores/005/347/600/products/productos-bam-spirits-2025-01-29t231521-048-dd9defa3d994df5f4e17382141616539-640-0.webp",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "cerveza xx lager ambar caguamon 1.18 l"
+  },
+  {
+    "nombre": "Six Cerveza XX Lager Especial 355 ml",
+    "precio": 120,
+    "imagen": "https://www.soriana.com/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dw03823376/images/product/0000075003821_A.jpg",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "six cerveza xx lager especial 355 ml"
+  },
+  {
+    "nombre": "Cerveza Tecate Original(Roja) Cuartito 190 ml",
+    "precio": 10,
+    "imagen": "https://imagedelivery.net/jXAJBAL3QRTbV-u4RVhLOQ/cm3s0t8qy00ety51rfv8fa0bo/02598a0b-b9a7-42bc-8540-3ef75e72dc0f/fullscreen",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "cerveza tecate original(roja) cuartito 190 ml"
+  },
+  {
+    "nombre": "Cerveza Tecate Light(Azul) Cuartito 190 ml",
+    "precio": 10,
+    "imagen": "https://imagedelivery.net/jXAJBAL3QRTbV-u4RVhLOQ/cm3s0t8qy00ety51rfv8fa0bo/1d18d1e0-bd14-40af-9932-6fc4997a8907/fullscreen",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "cerveza tecate light(azul) cuartito 190 ml"
+  },
+  {
+    "nombre": "Caribe Cooler Ultra Durazno 300 ml",
+    "precio": 28,
+    "imagen": "https://arteli.vtexassets.com/arquivos/ids/243691/7501032485412_00.jpg?v=638635764758300000",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "caribe cooler ultra durazno 300 ml"
+  },
+  {
+    "nombre": "Caribe Cooler Mandarina 300 ml",
+    "precio": 32,
+    "imagen": "https://vinosamerica.com/cdn/shop/products/Caribe-Cooler-Mandarina-2_9a2428ff-60ef-42dd-a1a5-7457dd545d8b.png?v=1748270579",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "caribe cooler ultra mandarina 300 ml"
+  },
+  {
+    "nombre": "Caribe Cooler Fresa 300 ml",
+    "precio": 28,
+    "imagen": "https://arteli.vtexassets.com/arquivos/ids/272317-800-auto?v=638870037987630000&width=800&height=auto&aspect=true",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "caribe cooler ultra fresa 300 ml"
+  },
+  {
+    "nombre": "Plancha Modelo Especial 355 ml",
+    "precio": 385,
+    "imagen": "https://i5.walmartimages.com.mx/samsmx/images/product-images/img_large/000084570l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "plancha modelo especial 355 ml"
+  },
+  {
+    "nombre": "Cerveza Tecate Original(Roja) Caguamon",
+    "precio": 50,
+    "imagen": "https://www.soriana.com/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dwd813cd1a/images/product/7503046919358_A.jpg",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "cerveza tecate original(roja) caguamon"
+  },
+  {
+    "nombre": "Carton de Cerveza Amstel Ultra Cuartito 190 ml",
+    "precio": 170,
+    "imagen": "https://imagedelivery.net/jXAJBAL3QRTbV-u4RVhLOQ/cm3s0t8qy00ety51rfv8fa0bo/d5acf141-a640-4009-8052-79bd3925b78e/fullscreen",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "carton de cerveza amstel ultra cuartito 190 ml"
+  },
+  {
+    "nombre": "Cerveza Indio Caguamon",
+    "precio": 50,
+    "imagen": "https://chedrauimx.vtexassets.com/arquivos/ids/81253206/7503032272924_00.jpg?v=639307103837300000",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "cerveza indio caguamon"
+  },
+  {
+    "nombre": "VIÑA MANGO-MARACUYA",
+    "precio": 30,
+    "imagen": "https://i5-mx.walmartimages.com/asr/e280ad69-6ff5-46c3-bdf1-cd1a8e4d8ecf.f71467964815674194be531adc707f74.jpeg",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "viña mango-maracuya"
+  },
+  {
+    "nombre": "Plancha Tecate Light(Azul) 355 ml",
+    "precio": 330,
+    "imagen": "https://imagedelivery.net/jXAJBAL3QRTbV-u4RVhLOQ/cm3s0t8qy00ety51rfv8fa0bo/b1807815-d78d-48ab-8e4b-a9304acf9c84/fullscreen",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "plancha tecate light(azul) 355 ml"
+  },
+  {
+    "nombre": "Carton de Cerveza Indio Cuartito 190 ml",
+    "precio": 160,
+    "imagen": "https://lamaschiquita.com/cdn/shop/products/1677_carton_cuartito_indio_800x.jpg?v=1578674281",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "carton de cerveza indio cuartito 190 ml"
+  },
+  {
+    "nombre": "Viña Real Tropical Kiwi",
+    "precio": 30,
+    "imagen": "https://garis.mayoreoenlinea.mx/cdn/shop/files/7501053670873_33ddf467-df76-4642-b283-4116fe0e053e.png?v=1784770746&width=1445",
+    "categoria": "Cervezas",
+    "alcohol": true,
+    "id": "viña real tropical kiwi"
+  },
 ];
