@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpieza - MiniExpress GS</title>
+    <script src="https://kit.fontawesome.com/de26e6a6ae.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+             margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #F4F3EF;
+            }
+        .Banner{               
+            background:linear-gradient(135deg,#2F7D4A, #1F5E37);
+            width: 100%;
+            min-height: 100px;
+            padding-bottom: 15px;
+            margin: 0%;
+            color: white; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            gap: 20px;  
+            }
+          .Logo{
+           width: 85px;
+           height: 85px;
+           border-radius: 50%;
+           object-fit: contain;
+           background-color: #000;
+           position: static;
+           left: auto;
+           top: auto;
+           transform: none;
+        }
+        .slogan{
+            text-align: center;
+        }
+
+        .titulo-banner{
+            text-align: center;
+        }
+
+        .titulo-banner h1{
+            margin: 0;
+        }
+
+        .titulo-banner .slogan{
+            margin-bottom: 0;
+        }
+            /* 2. Título de la sección */
+        .titulo-seccion {
+            text-align: center;
+            margin: 30px 0 10px 0;
+            color: #333;
+        }
+
+        /* 3. Grid contenedor para mostrar muchas bebidas */
+        .grid-productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* 4. Tarjeta individual de producto */
+        .tarjeta-producto {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .tarjeta-producto img{
+            width: 90px;
+        }
+
+        /* Efecto hover al pasar el cursor */
+        .tarjeta-producto:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .icono-bebida {
+            font-size: 40px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .tarjeta-producto h3 {
+            margin: 10px 0 5px 0;
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+        .precio {
+            color: #28a745;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 5px 0 15px 0;
+        }
+
+        .boton-agregar {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .boton-agregar:hover {
+            background-color: #0056b3;
+        }
+        footer{
+            margin-top: auto;
+            text-align: center;
+            padding: 20px;
+            background-color: #E9E5DC;
+        }
+         .copy{
+            font-size: 12px;
+        }
+        .información{
+            font-size:15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Banner">
+     <a href="index.html">
+     <img src="Imagenes/Logotipo MiniExpress GS con carrito de comprasાન્ય.png" class="Logo">
+     </a>
+     <div class="titulo-banner">
+    <h1><i>Bienvenido a MiniExpress GS</i></h1>
+    <p class="slogan"><i>Tus marcas favoritas cerca de ti</i></p>
+    </div>
+    </div>
+    <h2 class="titulo-seccion">🧼 Catálogo de Limpieza</h2>
+
+    
+    <div class="grid-productos" id="contenedor-productos"></div>
+
+        <footer>
+        <p class="información">
+            <i class="fa-solid fa-map-pin"></i>
+            Ubicación: Calle del Cementerio S/N, Col Santa Fe, Tantoyuca Veracruz
+            <br>
+            <i class="fa-regular fa-clock"></i>
+            Horario: (Lun-Dom, 7:00 a.m - 9:30 p.m)
+            <br>
+        </p>
+        <hr>
+        <p class="copy">
+            &copy; 2026 MiniExpress GS 
+        </p>
+    </footer>
+    <script src="limpieza-data.js"></script>
+    <script src="render.js"></script>
+    <script src="Carrito.js"></script>
+</body>
+</html>
